@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New-app</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <h1>🗞️ Daily News
+        </h1>
+          <button class="saved-all" id="saved-all">⭐ Save All</button>
+        
+         <nav id="categories">
+  <button data-category="general" class="active">General</button>
+  <button data-category="technology">Technology</button>
+  <button data-category="business">Business</button>
+  <button data-category="sports">Sports</button>
+  <button data-category="health">Health</button>
+  <button data-category="saved" style="color: #2563eb; font-weight: bold;">⭐ Saved</button>
+        </nav>
+   
+        </header>
+        <main>
+            <div class="grid" id="card-grid">
+          
+            </div> 
+        
+            <div class="pagination" id="pagination">
+                <button id="prev">Prev</button>
+                <span id="page-number">Page 1 </span>
+                <button id="next">Next</button>
+            </div>
+        
+        </main>
+        <div id="toast-box" class="toast-box">
+
+
+        </div>
+
+<script src="script.js" type="module"></script>
+</body>
+</html>
